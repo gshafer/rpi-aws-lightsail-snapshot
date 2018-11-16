@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#********* Fill in your email address and instance name ************
+
 #Set email address
 email="YOUR_EMAIL_ADDRESS"
 
