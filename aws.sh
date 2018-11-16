@@ -21,8 +21,8 @@ week=$(date +%V)
 #echo $week
 
 #Name the snapshot to delete
-twoweek=`expr $week - $delete`
-#echo $twoweek
+twoweeks=`expr $week - $delete`
+#echo $twoweeks
 
 #Weeks in the year-  will be corrected below for years with 53 weeks
 numweeks=52
