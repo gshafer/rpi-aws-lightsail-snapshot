@@ -15,6 +15,6 @@ Setup cron to run the shell script weekly on a Sunday.
 
 Example (crontab -e command to edit cron):
 
-5 1 * * 0 /path/to/file/aws.sh
+5  1  *  *  0  /path/to/file/aws.sh
 
 
