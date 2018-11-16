@@ -9,4 +9,6 @@ AWS Lightsail CLI commands muct be installed on the RPI. Instructions here:
 
 https://iotbytes.wordpress.com/aws-iot-cli-on-raspberry-pi/
 
-Setup cron to run the shell script weekly.
+Setup cron to run the shell script weekly on a Sunday.
+
+Use update 2 with aws53.sh
