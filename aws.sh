@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #Set email address
-email="george@shafer.ca"
+email="YOUR_EMAIL_ADDRESS"
 
 #Set Day to do backps, Sunday is 0
 bud=0 
@@ -51,11 +51,11 @@ twoweeks=$numweeks
 #echo $twoweeks
 fi
 
-#echo $twoweeks
+echo $twoweeks
 
 #Create new snapshot
 
-/usr/local/bin/aws lightsail create-instance-snapshot --instance-name Shafer-2GB-Ohio-1-Server6 --instance-snapshot-name $week 2>&1 | mail -s "Create Snapshot for AWS" $email
+/usr/local/bin/aws lightsail create-instance-snapshot --instance-name YOUR_INSTANCE_NAME --instance-snapshot-name $week 2>&1 | mail -s "Create Snapshot for AWS" $email
 
 #Delete older snapshot
 
