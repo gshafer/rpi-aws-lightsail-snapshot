@@ -59,4 +59,4 @@ fi
 
 #Delete older snapshot
 
-/usr/local/bin/aws lightsail delete-instance-snapshot --instance-snapshot-name $twoweek 2>&1 | mail -s "Delete Snapshot for AWS" $email
+/usr/local/bin/aws lightsail delete-instance-snapshot --instance-snapshot-name $twoweeks 2>&1 | mail -s "Delete Snapshot for AWS" $email
