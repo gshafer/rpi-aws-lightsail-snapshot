@@ -13,7 +13,7 @@ https://iotbytes.wordpress.com/aws-iot-cli-on-raspberry-pi/
 
 Setup cron to run the shell script weekly on a Sunday.
 
-Example:
+Example (crontab -e command to edit cron):
 
 5 1 * * 0 /path/to/file/aws.sh
 
