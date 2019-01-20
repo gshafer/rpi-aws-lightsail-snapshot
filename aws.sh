@@ -53,7 +53,14 @@ twoweeks=$numweeks
 #echo $twoweeks
 fi
 
-echo $twoweeks
+#Adjust for adding a 0 in front of weeks 1 - 9
+if [ $twoweeks -lt 10 ]
+then
+printf -v newtwoweeks "%02d" $twoweeks
+twoweeks=$newtwoweeks
+fi
+
+#echo $twoweeks
 
 #Create new snapshot
 
